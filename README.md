@@ -1,6 +1,7 @@
 ## Day-2-Creating-User-Accounts-and-Groups
 
 ### 🛠️ Lab Tasks - Day 2: Creating User Accounts and Groups for Initial Staff:
+
 •	Create user accounts from a CSV file for employees.
 
 •	Assign users to security groups (e.g., Admin, HR, IT, Operations).
