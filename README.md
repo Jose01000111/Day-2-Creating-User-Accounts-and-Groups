@@ -8,17 +8,17 @@
 •	Set up password policies and force users to change passwords upon first login.
 
 #### 1. Prepare the CSV File for User Information 📄
-##### •	Create a CSV file with columns for:
+•	Create a CSV file with columns for:
 
-o	First Name
+ o	First Name
 
-o	Last Name
+ o	Last Name
 
-o	Username
+ o	Username
 
-o	Password
+ o	Password
 
-o	Department
+ o	Department
 
  •	Example data should include details for users in different departments such as Admin, HR, IT, Operations, and a special entry for "Staley the Bear" in the Mascot department.
 
@@ -53,47 +53,48 @@ o	Department
 3.	Go to the Member Of tab.
 
 Click Add, search for the relevant group (e.g., Admin, HR, IT, Operations, Mascot), and click OK.
+
 •	Ensure each user is placed in the correct security group:
 
-o	jdoe → Admin Group
+ o	jdoe → Admin Group
 
-o	jsmith → HR Group
+ o	jsmith → HR Group
 
-o	bjohnson → IT Group
+ o	bjohnson → IT Group
 
-o	awilliams → Operations Group
+ o	awilliams → Operations Group
 
-o	staley → Mascot Group
+ o	staley → Mascot Group
 
 #### 4. Set Up Password Policies 🔐
 
-##### •	Open Group Policy Management.
+•	Open Group Policy Management.
 
-##### •	Right-click your domain and select Create a GPO in this domain, and Link it here.
+•	Right-click your domain and select Create a GPO in this domain, and Link it here.
 
-##### •	Name the new GPO (e.g., Password Policy) and click OK.
+•	Name the new GPO (e.g., Password Policy) and click OK.
 
-##### •	Right-click the new GPO and select Edit.
+•	Right-click the new GPO and select Edit.
 
-##### •	Navigate to Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy.
+•	Navigate to Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy.
 
-##### •	Set the following policies:
+•	Set the following policies:
 
-o	Minimum password length: 8 characters
+ o	Minimum password length: 8 characters
 
-o	Password must meet complexity requirements: Enabled
+ o	Password must meet complexity requirements: Enabled
 
-o	Maximum password age: 60 days
+ o	Maximum password age: 60 days
 
-o	Minimum password age: 1 day
+ o	Minimum password age: 1 day
 
-##### •	Close the Group Policy Management console.
+•	Close the Group Policy Management console.
 
 #### 5. Force Users to Change Passwords Upon First Login 🔄
 
-##### •	Open Active Directory Users and Computers (ADUC).
+•	Open Active Directory Users and Computers (ADUC).
 
-##### •	For each user:
+•	For each user:
 
 1.	Right-click the user account and select Properties.
 
@@ -102,16 +103,18 @@ o	Minimum password age: 1 day
 3.	Click OK to apply the change.
 
 #### 6. Verify User Account Creation and Group Membership ✅
-##### •	Open Active Directory Users and Computers (ADUC).
-##### •	Navigate to each Organizational Unit (OU) (Admin, HR, IT, Operations, Mascot).
 
-1.	User accounts are listed in their respective OUs (e.g., jdoe in Admin, jsmith in HR).
+•	Open Active Directory Users and Computers (ADUC).
+
+•	Navigate to each Organizational Unit (OU) (Admin, HR, IT, Operations, Mascot).
+
+ 1.	User accounts are listed in their respective OUs (e.g., jdoe in Admin, jsmith in HR).
    
-3.	Each user is a member of the correct security group (e.g., jdoe in Admin, jsmith in HR).
+ 3.	Each user is a member of the correct security group (e.g., jdoe in Admin, jsmith in HR).
    
 •	To verify group membership:
 
-1.	Right-click a user account and select Properties.
+ 1.	Right-click a user account and select Properties.
    
-3.	Go to the Member Of tab to ensure they are in the correct group.
+ 3.	Go to the Member Of tab to ensure they are in the correct group.
 
