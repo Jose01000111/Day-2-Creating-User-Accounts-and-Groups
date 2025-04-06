@@ -35,8 +35,6 @@
 <img src="https://i.imgur.com/dC6Ll1R.png" alt="osTicket logo"/>
 </p>
 
- https://imgur.com/dC6Ll1R
-
  •	Save this file as users.csv in an easily accessible location on your server.
 
 #### 2. Create User Accounts in Active Directory 🖥️
@@ -73,8 +71,6 @@ Click Add, search for the relevant group (e.g., Admin, HR, IT, Operations, Masco
 <img src="https://i.imgur.com/2Gn3F6E.png" alt="osTicket logo"/>
 </p>
 
-https://imgur.com/2Gn3F6E
-
 •	Ensure each user is placed in the correct security group:
 
  o	jdoe → Admin Group
@@ -95,8 +91,6 @@ https://imgur.com/2Gn3F6E
 <img src="https://i.imgur.com/7Zv6O8F.png" alt="osTicket logo"/>
 </p>
 
-https://imgur.com/7Zv6O8F
-
 •	Right-click your domain and select Create a GPO in this domain, and Link it here.
 
 •	Name the new GPO (e.g., Password Policy) and click OK.
@@ -104,8 +98,6 @@ https://imgur.com/7Zv6O8F
 <p align="center">
 <img src="https://i.imgur.com/HI53KW8.png" alt="osTicket logo"/>
 </p>
-
-https://imgur.com/HI53KW8
 
 •	Right-click the new GPO and select Edit.
 
@@ -131,13 +123,9 @@ https://imgur.com/HI53KW8
 <img src="https://i.imgur.com/szCfLca.png" alt="osTicket logo"/>
 </p>
 
-https://imgur.com/szCfLca
-
 <p align="center">
 <img src="https://i.imgur.com/LIC6ibW.png" alt="osTicket logo"/>
 </p>
-
-https://imgur.com/LIC6ibW
 
 •	Open Active Directory Users and Computers (ADUC).
 
@@ -150,8 +138,6 @@ https://imgur.com/LIC6ibW
 <p align="center">
 <img src="https://i.imgur.com/weGbB91.png" alt="osTicket logo"/>
 </p>   
-
-https://imgur.com/weGbB91
 
 3.	Click OK to apply the change.
 
