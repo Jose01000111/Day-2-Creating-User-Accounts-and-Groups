@@ -39,8 +39,8 @@ o	Department
 4.	Uncheck User must change password at next logon (we'll configure this later).
 
 5.	Click Finish to create the user.
-6.	
- •	Repeat for all users (John, Jane, Bob, Alice, and Staley).
+   
+6.	Repeat for all users (John, Jane, Bob, Alice, and Staley).
 
 #### 3. Assign Users to Security Groups 🔑
 
