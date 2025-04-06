@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://i.imgur.com/pqTjnLb.png" alt="osTicket logo"/>
+</p>
+
 ## Day-2-Creating-User-Accounts-and-Groups
 
 ### 🛠️ Lab Tasks - Day 2: Creating User Accounts and Groups for Initial Staff:
