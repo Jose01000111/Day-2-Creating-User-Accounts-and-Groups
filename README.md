@@ -20,15 +20,15 @@ o	Password
 
 o	Department
 
-##### •	Example data should include details for users in different departments such as Admin, HR, IT, Operations, and a special entry for "Staley the Bear" in the Mascot department.
+ •	Example data should include details for users in different departments such as Admin, HR, IT, Operations, and a special entry for "Staley the Bear" in the Mascot department.
 
-##### •	Save this file as users.csv in an easily accessible location on your server.
+ •	Save this file as users.csv in an easily accessible location on your server.
 
 #### 2. Create User Accounts in Active Directory 🖥️
 
-##### •	Open Active Directory Users and Computers (ADUC) on your server.
+ •	Open Active Directory Users and Computers (ADUC) on your server.
 
-##### •	For each user:
+ •	For each user:
 
 1.	Right-click the relevant Organizational Unit (OU) (e.g., Admin, HR, IT, Operations, or Mascot).
 
@@ -40,11 +40,11 @@ o	Department
 
 5.	Click Finish to create the user.
 6.	
-##### •	Repeat for all users (John, Jane, Bob, Alice, and Staley).
+ •	Repeat for all users (John, Jane, Bob, Alice, and Staley).
 
 #### 3. Assign Users to Security Groups 🔑
 
-##### •	For each user, assign them to their respective security group based on their department.
+ •	For each user, assign them to their respective security group based on their department.
 
 1.	In ADUC, right-click the user account.
 
@@ -52,8 +52,8 @@ o	Department
 
 3.	Go to the Member Of tab.
 
-4.	Click Add, search for the relevant group (e.g., Admin, HR, IT, Operations, Mascot), and click OK.
-##### •	Ensure each user is placed in the correct security group:
+Click Add, search for the relevant group (e.g., Admin, HR, IT, Operations, Mascot), and click OK.
+•	Ensure each user is placed in the correct security group:
 
 o	jdoe → Admin Group
 
