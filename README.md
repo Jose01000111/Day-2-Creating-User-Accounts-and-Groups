@@ -4,7 +4,7 @@
 
 ## Day-2-Creating-User-Accounts-and-Groups
 
-
+Building on Day 1's Domain Controller setup, Day 2 focuses on creating user accounts for staff at the new Arlington Heights headquarters. Using a CSV file, I can quickly populate Active Directory, assign users to appropriate security groups, and enforce password policies to secure access. This ensures smooth and controlled access as the Bears' staff transitions to their new location.
 
 ### 🛠️ Lab Tasks - Day 2: Creating User Accounts and Groups for Initial Staff:
 
