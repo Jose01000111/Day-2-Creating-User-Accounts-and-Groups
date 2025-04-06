@@ -25,7 +25,17 @@
 
  o	Department
 
+ <p align="center">
+<img src="https://i.imgur.com/v7bB2Wb.png" alt="osTicket logo"/>
+</p>
+
  •	Example data should include details for users in different departments such as Admin, HR, IT, Operations, and a special entry for "Staley the Bear" in the Mascot department.
+
+<p align="center">
+<img src="https://i.imgur.com/dC6Ll1R.png" alt="osTicket logo"/>
+</p>
+
+ https://imgur.com/dC6Ll1R
 
  •	Save this file as users.csv in an easily accessible location on your server.
 
@@ -59,6 +69,12 @@
 
 Click Add, search for the relevant group (e.g., Admin, HR, IT, Operations, Mascot), and click OK.
 
+<p align="center">
+<img src="https://i.imgur.com/2Gn3F6E.png" alt="osTicket logo"/>
+</p>
+
+https://imgur.com/2Gn3F6E
+
 •	Ensure each user is placed in the correct security group:
 
  o	jdoe → Admin Group
@@ -75,9 +91,21 @@ Click Add, search for the relevant group (e.g., Admin, HR, IT, Operations, Masco
 
 •	Open Group Policy Management.
 
+<p align="center">
+<img src="https://i.imgur.com/7Zv6O8F.png" alt="osTicket logo"/>
+</p>
+
+https://imgur.com/7Zv6O8F
+
 •	Right-click your domain and select Create a GPO in this domain, and Link it here.
 
 •	Name the new GPO (e.g., Password Policy) and click OK.
+
+<p align="center">
+<img src="https://i.imgur.com/HI53KW8.png" alt="osTicket logo"/>
+</p>
+
+https://imgur.com/HI53KW8
 
 •	Right-click the new GPO and select Edit.
 
@@ -93,9 +121,23 @@ Click Add, search for the relevant group (e.g., Admin, HR, IT, Operations, Masco
 
  o	Minimum password age: 1 day
 
+ https://imgur.com/yBVsdmT
+
 •	Close the Group Policy Management console.
 
 #### 5. Force Users to Change Passwords Upon First Login 🔄
+
+<p align="center">
+<img src="https://i.imgur.com/szCfLca.png" alt="osTicket logo"/>
+</p>
+
+https://imgur.com/szCfLca
+
+<p align="center">
+<img src="https://i.imgur.com/LIC6ibW.png" alt="osTicket logo"/>
+</p>
+
+https://imgur.com/LIC6ibW
 
 •	Open Active Directory Users and Computers (ADUC).
 
@@ -104,6 +146,12 @@ Click Add, search for the relevant group (e.g., Admin, HR, IT, Operations, Masco
 1.	Right-click the user account and select Properties.
 
 2.	Under the Account tab, check the box for User must change password at next logon.
+
+<p align="center">
+<img src="https://i.imgur.com/weGbB91.png" alt="osTicket logo"/>
+</p>   
+
+https://imgur.com/weGbB91
 
 3.	Click OK to apply the change.
 
