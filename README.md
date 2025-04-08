@@ -4,10 +4,8 @@
 
 ## Day 2 – Creating User Accounts and Security Groups
 
-Scenario:
 With the domain live, I received a staff list from HR and was responsible for ensuring all users would be able to access systems and data on day one—without permission overlap or security gaps.
 
-Tech Explanation:
 Using a CSV file and PowerShell, I bulk-created user accounts, assigned them to role-based security groups, and configured password policies. (Used ChatGPT to script validation and group logic.)
 
 
