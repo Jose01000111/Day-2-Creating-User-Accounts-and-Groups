@@ -10,7 +10,9 @@ Using a CSV file and PowerShell, I bulk-created user accounts, assigned them to 
 
 
 
-### 🛠️ Lab Tasks - Day 2: Creating User Accounts and Groups for Initial Staff:
+### 🛠️ Day 2: Creating User Accounts and Groups for Initial Staff:
+
+### 🧪 Lab Tasks
 
 •	Create user accounts from a CSV file for employees.
 
