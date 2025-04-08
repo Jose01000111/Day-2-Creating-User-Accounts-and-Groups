@@ -2,15 +2,11 @@
 <img src="https://i.imgur.com/pqTjnLb.png" alt="osTicket logo"/>
 </p>
 
-## Day 2 – Creating User Accounts and Security Groups
+## Day 2 – Creating User Accounts and 🔒 Security Groups
 
 With the domain live, I received a staff list from HR and was responsible for ensuring all users would be able to access systems and data on day one—without permission overlap or security gaps.
 
 Using a CSV file and PowerShell, I bulk-created user accounts, assigned them to role-based security groups, and configured password policies. (Used ChatGPT to script validation and group logic.)
-
-
-
-### 🛠️ Day 2: Creating User Accounts and Groups for Initial Staff:
 
 ### 🧪 Lab Tasks
 
@@ -45,7 +41,7 @@ Using a CSV file and PowerShell, I bulk-created user accounts, assigned them to 
 
  •	Save this file as users.csv in an easily accessible location on your server.
 
-#### 2. Create User Accounts in Active Directory 🖥️
+#### 2. Create User Accounts in ☁️ Active Directory 🖥️
 
  •	Open Active Directory Users and Computers (ADUC) on your server.
 
