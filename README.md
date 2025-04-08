@@ -160,23 +160,23 @@ Click Add, search for the relevant group (e.g., Admin, HR, IT, Operations, Masco
  3.	Go to the Member Of tab to ensure they are in the correct group.
 
 ### Technology Stack 🛠️
-Active Directory: Manage user accounts and security groups.
+#### Active Directory: Manage user accounts and security groups.
 
-CSV Files: Store user details for bulk import.
+#### CSV Files: Store user details for bulk import.
 
-Group Policy Management: Set password policies.
+#### Group Policy Management: Set password policies.
 
-Windows Server: Host Active Directory and Group Policy tools.
+#### Windows Server: Host Active Directory and Group Policy tools.
 
-osTicket: Brand/logo for ticket management.
+#### osTicket: Brand/logo for ticket management.
 
 ### Summary of Goals 🎯
-Create user accounts from a CSV file.
+#### ✅Create user accounts from a CSV file.
 
-Assign users to the correct security groups.
+#### ✅Assign users to the correct security groups.
 
-Configure password policies for secure logins.
+#### ✅Configure password policies for secure logins.
 
-Force users to change their passwords upon first login.
+#### ✅Force users to change their passwords upon first login.
 
-Verify user account creation and group membership.
+#### ✅Verify user account creation and group membership.
