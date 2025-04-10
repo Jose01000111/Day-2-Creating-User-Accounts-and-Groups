@@ -161,7 +161,7 @@ Click Add, search for the relevant group (e.g., Admin, HR, IT, Operations, Masco
    
  3.	Go to the Member Of tab to ensure they are in the correct group.
 
-### Technology Stack 🛠️
+### 💻Technology Stack 
 #### Active Directory: Manage user accounts and security groups.
 
 #### CSV Files: Store user details for bulk import.
@@ -172,7 +172,7 @@ Click Add, search for the relevant group (e.g., Admin, HR, IT, Operations, Masco
 
 #### osTicket: Brand/logo for ticket management.
 
-### Summary of Goals 🎯
+### 🎯Summary of Goals 
 #### ✅Create user accounts from a CSV file.
 
 #### ✅Assign users to the correct security groups.
