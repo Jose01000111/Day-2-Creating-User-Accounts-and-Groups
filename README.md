@@ -80,20 +80,7 @@ ________________________________________________________________________________
 ___________________________________________________________________________________________________________
 
 #### 6. Verify User Account Creation and Group Membership ✅
-
-•	Open Active Directory Users and Computers (ADUC).
-
-•	Navigate to each Organizational Unit (OU) (Admin, HR, IT, Operations, Mascot).
-
- 1.	User accounts are listed in their respective OUs (e.g., jdoe in Admin, jsmith in HR).
-   
- 3.	Each user is a member of the correct security group (e.g., jdoe in Admin, jsmith in HR).
-   
-•	To verify group membership:
-
- 1.	Right-click a user account and select Properties.
-   
- 3.	Go to the Member Of tab to ensure they are in the correct group.
+Lastly, I verified the user account creation and group membership in ADUC. I navigated to each Organizational Unit (OU) (Admin, HR, IT, Operations, Mascot) and checked that each user was listed under the correct OU. I also confirmed that each user was part of the appropriate security group by right-clicking the account, selecting Properties, and reviewing the Member Of tab.
 
 ___________________________________________________________________________________________________________
 ### 💻Technology Stack 
