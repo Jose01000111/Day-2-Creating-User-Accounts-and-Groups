@@ -32,7 +32,9 @@ Next, I opened Active Directory Users and Computers (ADUC) on the server. For ea
 <img src="https://i.imgur.com/dC6Ll1R.png" alt="osTicket logo"/>
 </p>
 ___________________________________________________________________________________________________________
+
 #### 3. Assign Users to Security Groups 🔑
+
 I then assigned each user to their respective security group based on their department. In ADUC, I right-clicked the user account, selected Properties, and went to the Member Of tab. I clicked Add, searched for the relevant group (e.g., Admin, HR, IT, Operations, Mascot), and clicked OK to assign them to the group.
 
 <p align="center">
@@ -61,31 +63,21 @@ ________________________________________________________________________________
 
 ___________________________________________________________________________________________________________
 #### 5. Force Users to Change Passwords Upon First Login 🔄
+To ensure users change their passwords on their first login, I opened ADUC and for each user, I right-clicked the account, selected Properties, and checked the User must change password at next logon box under the Account tab. I clicked OK to apply the change.
 
 <p align="center">
 <img src="https://i.imgur.com/szCfLca.png" alt="osTicket logo"/>
 </p>
-
 ___________________________________________________________________________________________________________
 <p align="center">
 <img src="https://i.imgur.com/LIC6ibW.png" alt="osTicket logo"/>
 </p>
-
-___________________________________________________________________________________________________________
-•	Open Active Directory Users and Computers (ADUC).
-
-•	For each user:
-
-1.	Right-click the user account and select Properties.
-
-2.	Under the Account tab, check the box for User must change password at next logon.
+__________________________________________________________________________________________________________
 
 <p align="center">
 <img src="https://i.imgur.com/weGbB91.png" alt="osTicket logo"/>
 </p>   
-
 ___________________________________________________________________________________________________________
-3.	Click OK to apply the change.
 
 #### 6. Verify User Account Creation and Group Membership ✅
 
