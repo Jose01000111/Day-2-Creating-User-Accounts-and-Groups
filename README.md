@@ -24,28 +24,13 @@ I began by creating a CSV file that contains the following columns: First Name, 
 </p>
 ___________________________________________________________________________________________________________
 
+#### 2. Create User Accounts in ☁️ Active Directory 🖥️
+
+Next, I opened Active Directory Users and Computers (ADUC) on the server. For each user, I right-clicked the relevant Organizational Unit (OU), selected New > User, and filled out the user details, such as First Name, Last Name, Username, and Password. After completing each account, I unchecked the User must change password at next logon option and clicked Finish. I repeated this process for all users.
+
 <p align="center">
 <img src="https://i.imgur.com/dC6Ll1R.png" alt="osTicket logo"/>
 </p>
-
-#### 2. Create User Accounts in ☁️ Active Directory 🖥️
-
- •	Open Active Directory Users and Computers (ADUC) on your server.
-
- •	For each user:
-
-1.	Right-click the relevant Organizational Unit (OU) (e.g., Admin, HR, IT, Operations, or Mascot).
-
-2.	Select New > User.
-
-3.	Fill out the user details (First Name, Last Name, Username, Password).
-
-4.	Uncheck User must change password at next logon (we'll configure this later).
-
-5.	Click Finish to create the user.
-   
-6.	Repeat for all users (John, Jane, Bob, Alice, and Staley).
-
 ___________________________________________________________________________________________________________
 #### 3. Assign Users to Security Groups 🔑
 
