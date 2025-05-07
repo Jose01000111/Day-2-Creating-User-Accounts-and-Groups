@@ -33,69 +33,31 @@ Next, I opened Active Directory Users and Computers (ADUC) on the server. For ea
 </p>
 ___________________________________________________________________________________________________________
 #### 3. Assign Users to Security Groups 🔑
-
- •	For each user, assign them to their respective security group based on their department.
-
-1.	In ADUC, right-click the user account.
-
-2.	Select Properties.
-
-3.	Go to the Member Of tab.
-
-Click Add, search for the relevant group (e.g., Admin, HR, IT, Operations, Mascot), and click OK.
+I then assigned each user to their respective security group based on their department. In ADUC, I right-clicked the user account, selected Properties, and went to the Member Of tab. I clicked Add, searched for the relevant group (e.g., Admin, HR, IT, Operations, Mascot), and clicked OK to assign them to the group.
 
 <p align="center">
 <img src="https://i.imgur.com/2Gn3F6E.png" alt="osTicket logo"/>
 </p>
 
-•	Ensure each user is placed in the correct security group:
-
- o	jdoe → Admin Group
-
- o	jsmith → HR Group
-
- o	bjohnson → IT Group
-
- o	awilliams → Operations Group
-
- o	staley → Mascot Group
-
 ___________________________________________________________________________________________________________
 #### 4. Set Up Password Policies 🔐
-
-•	Open Group Policy Management.
+To set up password policies, I opened Group Policy Management and created a new Group Policy Object (GPO) named Password Policy. After linking the GPO to the domain, I navigated to Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy. I configured the following settings: minimum password length of 8 characters, password complexity requirements enabled, maximum password age of 60 days, and a minimum password age of 1 day.
 
 <p align="center">
 <img src="https://i.imgur.com/7Zv6O8F.png" alt="osTicket logo"/>
 </p>
 
 ___________________________________________________________________________________________________________
-•	Right-click your domain and select Create a GPO in this domain, and Link it here.
-
-•	Name the new GPO (e.g., Password Policy) and click OK.
 
 <p align="center">
 <img src="https://i.imgur.com/HI53KW8.png" alt="osTicket logo"/>
 </p>
 
 ___________________________________________________________________________________________________________
-•	Right-click the new GPO and select Edit.
-
-•	Navigate to Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy.
-
-•	Set the following policies:
-
- o	Minimum password length: 8 characters
-
- o	Password must meet complexity requirements: Enabled
-
- o	Maximum password age: 60 days
-
- o	Minimum password age: 1 day
-
+<p align="center">
+<img src="https://i.imgur.com/yBVsdmT.png" alt="osTicket logo"/>
+</p>
  https://imgur.com/yBVsdmT
-
-•	Close the Group Policy Management console.
 
 ___________________________________________________________________________________________________________
 #### 5. Force Users to Change Passwords Upon First Login 🔄
