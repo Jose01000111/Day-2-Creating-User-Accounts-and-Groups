@@ -59,7 +59,6 @@ ________________________________________________________________________________
 <p align="center">
 <img src="https://i.imgur.com/yBVsdmT.png" alt="osTicket logo"/>
 </p>
- https://imgur.com/yBVsdmT
 
 ___________________________________________________________________________________________________________
 #### 5. Force Users to Change Passwords Upon First Login 🔄
@@ -74,13 +73,12 @@ ________________________________________________________________________________
 </p>
 __________________________________________________________________________________________________________
 
+#### 6. Verify User Account Creation and Group Membership ✅
+Lastly, I verified the user account creation and group membership in ADUC. I navigated to each Organizational Unit (OU) (Admin, HR, IT, Operations, Mascot) and checked that each user was listed under the correct OU. I also confirmed that each user was part of the appropriate security group by right-clicking the account, selecting Properties, and reviewing the Member Of tab.
+
 <p align="center">
 <img src="https://i.imgur.com/weGbB91.png" alt="osTicket logo"/>
 </p>   
-___________________________________________________________________________________________________________
-
-#### 6. Verify User Account Creation and Group Membership ✅
-Lastly, I verified the user account creation and group membership in ADUC. I navigated to each Organizational Unit (OU) (Admin, HR, IT, Operations, Mascot) and checked that each user was listed under the correct OU. I also confirmed that each user was part of the appropriate security group by right-clicking the account, selecting Properties, and reviewing the Member Of tab.
 
 ___________________________________________________________________________________________________________
 ### 💻Technology Stack 
