@@ -17,29 +17,16 @@ Using a CSV file and PowerShell, I bulk-created user accounts, assigned them to 
 •	Set up password policies and force users to change passwords upon first login.
 
 #### 1. Prepare the CSV File for User Information 📄
-•	Create a CSV file with columns for:
-
- o	First Name
-
- o	Last Name
-
- o	Username
-
- o	Password
-
- o	Department
+I began by creating a CSV file that contains the following columns: First Name, Last Name, Username, Password, and Department. I populated the file with user data for departments like Admin, HR, IT, Operations, and a special entry for "Staley the Bear" in the Mascot department. Once completed, I saved the file as users.csv in a convenient location on my server.
 
  <p align="center">
 <img src="https://i.imgur.com/v7bB2Wb.png" alt="osTicket logo"/>
 </p>
-
- •	Example data should include details for users in different departments such as Admin, HR, IT, Operations, and a special entry for "Staley the Bear" in the Mascot department.
+___________________________________________________________________________________________________________
 
 <p align="center">
 <img src="https://i.imgur.com/dC6Ll1R.png" alt="osTicket logo"/>
 </p>
-
- •	Save this file as users.csv in an easily accessible location on your server.
 
 #### 2. Create User Accounts in ☁️ Active Directory 🖥️
 
@@ -59,6 +46,7 @@ Using a CSV file and PowerShell, I bulk-created user accounts, assigned them to 
    
 6.	Repeat for all users (John, Jane, Bob, Alice, and Staley).
 
+___________________________________________________________________________________________________________
 #### 3. Assign Users to Security Groups 🔑
 
  •	For each user, assign them to their respective security group based on their department.
@@ -87,6 +75,7 @@ Click Add, search for the relevant group (e.g., Admin, HR, IT, Operations, Masco
 
  o	staley → Mascot Group
 
+___________________________________________________________________________________________________________
 #### 4. Set Up Password Policies 🔐
 
 •	Open Group Policy Management.
@@ -95,6 +84,7 @@ Click Add, search for the relevant group (e.g., Admin, HR, IT, Operations, Masco
 <img src="https://i.imgur.com/7Zv6O8F.png" alt="osTicket logo"/>
 </p>
 
+___________________________________________________________________________________________________________
 •	Right-click your domain and select Create a GPO in this domain, and Link it here.
 
 •	Name the new GPO (e.g., Password Policy) and click OK.
@@ -103,6 +93,7 @@ Click Add, search for the relevant group (e.g., Admin, HR, IT, Operations, Masco
 <img src="https://i.imgur.com/HI53KW8.png" alt="osTicket logo"/>
 </p>
 
+___________________________________________________________________________________________________________
 •	Right-click the new GPO and select Edit.
 
 •	Navigate to Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy.
@@ -121,16 +112,19 @@ Click Add, search for the relevant group (e.g., Admin, HR, IT, Operations, Masco
 
 •	Close the Group Policy Management console.
 
+___________________________________________________________________________________________________________
 #### 5. Force Users to Change Passwords Upon First Login 🔄
 
 <p align="center">
 <img src="https://i.imgur.com/szCfLca.png" alt="osTicket logo"/>
 </p>
 
+___________________________________________________________________________________________________________
 <p align="center">
 <img src="https://i.imgur.com/LIC6ibW.png" alt="osTicket logo"/>
 </p>
 
+___________________________________________________________________________________________________________
 •	Open Active Directory Users and Computers (ADUC).
 
 •	For each user:
@@ -143,6 +137,7 @@ Click Add, search for the relevant group (e.g., Admin, HR, IT, Operations, Masco
 <img src="https://i.imgur.com/weGbB91.png" alt="osTicket logo"/>
 </p>   
 
+___________________________________________________________________________________________________________
 3.	Click OK to apply the change.
 
 #### 6. Verify User Account Creation and Group Membership ✅
@@ -161,6 +156,7 @@ Click Add, search for the relevant group (e.g., Admin, HR, IT, Operations, Masco
    
  3.	Go to the Member Of tab to ensure they are in the correct group.
 
+___________________________________________________________________________________________________________
 ### 💻Technology Stack 
 #### Active Directory: Manage user accounts and security groups.
 
