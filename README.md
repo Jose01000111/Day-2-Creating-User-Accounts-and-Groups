@@ -22,7 +22,9 @@ I began by creating a CSV file that contains the following columns: First Name, 
  <p align="center">
 <img src="https://i.imgur.com/v7bB2Wb.png" alt="osTicket logo"/>
 </p>
-___________________________________________________________________________________________________________
+
+***
+
 
 #### 2. Create User Accounts in ☁️ Active Directory 🖥️
 
@@ -31,7 +33,9 @@ Next, I opened Active Directory Users and Computers (ADUC) on the server. For ea
 <p align="center">
 <img src="https://i.imgur.com/dC6Ll1R.png" alt="osTicket logo"/>
 </p>
-___________________________________________________________________________________________________________
+
+***
+
 
 #### 3. Assign Users to Security Groups 🔑
 
@@ -41,7 +45,9 @@ I then assigned each user to their respective security group based on their depa
 <img src="https://i.imgur.com/2Gn3F6E.png" alt="osTicket logo"/>
 </p>
 
-___________________________________________________________________________________________________________
+
+***
+
 #### 4. Set Up Password Policies 🔐
 To set up password policies, I opened Group Policy Management and created a new Group Policy Object (GPO) named Password Policy. After linking the GPO to the domain, I navigated to Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy. I configured the following settings: minimum password length of 8 characters, password complexity requirements enabled, maximum password age of 60 days, and a minimum password age of 1 day.
 
@@ -49,29 +55,37 @@ To set up password policies, I opened Group Policy Management and created a new 
 <img src="https://i.imgur.com/7Zv6O8F.png" alt="osTicket logo"/>
 </p>
 
-___________________________________________________________________________________________________________
+
+***
 
 <p align="center">
 <img src="https://i.imgur.com/HI53KW8.png" alt="osTicket logo"/>
 </p>
 
-___________________________________________________________________________________________________________
+***
+
 <p align="center">
 <img src="https://i.imgur.com/yBVsdmT.png" alt="osTicket logo"/>
 </p>
 
-___________________________________________________________________________________________________________
+
+***
+
 #### 5. Force Users to Change Passwords Upon First Login 🔄
 To ensure users change their passwords on their first login, I opened ADUC and for each user, I right-clicked the account, selected Properties, and checked the User must change password at next logon box under the Account tab. I clicked OK to apply the change.
 
 <p align="center">
 <img src="https://i.imgur.com/szCfLca.png" alt="osTicket logo"/>
 </p>
-___________________________________________________________________________________________________________
+
+***
+
 <p align="center">
 <img src="https://i.imgur.com/LIC6ibW.png" alt="osTicket logo"/>
 </p>
-__________________________________________________________________________________________________________
+
+***
+
 
 #### 6. Verify User Account Creation and Group Membership ✅
 Lastly, I verified the user account creation and group membership in ADUC. I navigated to each Organizational Unit (OU) (Admin, HR, IT, Operations, Mascot) and checked that each user was listed under the correct OU. I also confirmed that each user was part of the appropriate security group by right-clicking the account, selecting Properties, and reviewing the Member Of tab.
@@ -80,7 +94,9 @@ Lastly, I verified the user account creation and group membership in ADUC. I nav
 <img src="https://i.imgur.com/weGbB91.png" alt="osTicket logo"/>
 </p>   
 
-___________________________________________________________________________________________________________
+
+***
+
 ### 💻Technology Stack 
 #### Active Directory: Manage user accounts and security groups.
 
